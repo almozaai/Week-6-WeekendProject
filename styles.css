@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+.right, .left, .leftEnd, .rightEnd {
+  height: 40px;
+  width: 250px;
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.container {
+  width: 60%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.backdround {
+  background-color: brown;
+}
